@@ -1,0 +1,350 @@
+2024-05-06 11:24:01.757 INFO 18980 [restartedMain] [com.bjpowernode.pan.PanApplication 55] Starting PanApplication on LAPTOP-PU0F2GBF with PID 18980 (D:\courses\junior\软件测试\Pan\target\classes started by ASUS in D:\courses\junior\软件测试\Pan)
+2024-05-06 11:24:01.760 INFO 18980 [restartedMain] [com.bjpowernode.pan.PanApplication 655] The following profiles are active: window
+2024-05-06 11:24:01.826 INFO 18980 [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-06 11:24:01.827 INFO 18980 [restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor 225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-06 11:24:02.741 INFO 18980 [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate 127] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-06 11:24:02.832 INFO 18980 [restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate 187] Finished Spring Data repository scanning in 83ms. Found 3 JPA repository interfaces.
+2024-05-06 11:24:03.635 INFO 18980 [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer 91] Tomcat initialized with port(s): 8080 (http)
+2024-05-06 11:24:03.647 INFO 18980 [restartedMain] [org.apache.catalina.core.StandardService 173] Starting service [Tomcat]
+2024-05-06 11:24:03.647 INFO 18980 [restartedMain] [org.apache.catalina.core.StandardEngine 173] Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-05-06 11:24:03.735 INFO 18980 [restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173] Initializing Spring embedded WebApplicationContext
+2024-05-06 11:24:03.736 INFO 18980 [restartedMain] [org.springframework.web.context.ContextLoader 284] Root WebApplicationContext: initialization completed in 1908 ms
+2024-05-06 11:24:03.945 INFO 18980 [restartedMain] [org.hibernate.jpa.internal.util.LogHelper 31] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-06 11:24:03.998 INFO 18980 [restartedMain] [org.hibernate.Version 44] HHH000412: Hibernate ORM core version 5.4.15.Final
+2024-05-06 11:24:04.137 INFO 18980 [restartedMain] [org.hibernate.annotations.common.Version 49] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2024-05-06 11:24:04.229 INFO 18980 [restartedMain] [com.zaxxer.hikari.HikariDataSource 110] HikariPool-1 - Starting...
+2024-05-06 11:24:04.428 INFO 18980 [restartedMain] [com.zaxxer.hikari.HikariDataSource 123] HikariPool-1 - Start completed.
+2024-05-06 11:24:04.449 INFO 18980 [restartedMain] [org.hibernate.dialect.Dialect 172] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-05-06 11:24:05.280 INFO 18980 [restartedMain] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-05-06 11:24:05.296 INFO 18980 [restartedMain] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean 416] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-06 11:24:05.341 INFO 18980 [restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer 58] LiveReload server is running on port 35729
+2024-05-06 11:24:05.997 WARN 18980 [restartedMain] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration 220] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-06 11:24:06.159 INFO 18980 [restartedMain] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor 181] Initializing ExecutorService 'applicationTaskExecutor'
+2024-05-06 11:24:06.269 WARN 18980 [restartedMain] [com.bjpowernode.pan.config.WebMvcConfiguration$$EnhancerBySpringCGLIB$$b98d1561 39] addResourceHandlers() fileRootPath:pan/logs/
+2024-05-06 11:24:06.306 WARN 18980 [restartedMain] [org.thymeleaf.templatemode.TemplateMode 150] [THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2024-05-06 11:24:06.445 INFO 18980 [restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer 203] Tomcat started on port(s): 8080 (http) with context path ''
+2024-05-06 11:24:06.447 INFO 18980 [restartedMain] [com.bjpowernode.pan.PanApplication 61] Started PanApplication in 5.126 seconds (JVM running for 5.775)
+2024-05-06 11:24:11.824 INFO 18980 [http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-06 11:24:11.824 INFO 18980 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet 525] Initializing Servlet 'dispatcherServlet'
+2024-05-06 11:24:11.833 INFO 18980 [http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet 547] Completed initialization in 8 ms
+2024-05-06 11:24:11.871 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:errorHtml
+2024-05-06 11:24:11.871 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 38] 未登录
+2024-05-06 11:24:15.368 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.LoginController 59] encryptedPwd:464A4CEE6CDA5596651578B144827FCB82F197
+2024-05-06 11:24:15.415 INFO 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.LoginController 74] 密码错误！
+2024-05-06 11:24:19.096 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.LoginController 59] encryptedPwd:464A4CCFC21BD8CD05B106205EE025A883724B
+2024-05-06 11:24:19.101 INFO 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.LoginController 70] 用户登录成功！
+2024-05-06 11:24:19.144 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.IndexController:admin
+2024-05-06 11:24:19.145 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:19.148 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 64] [IndexController.admin] 执行耗时 : 4ms
+2024-05-06 11:24:19.844 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController:error
+2024-05-06 11:24:19.844 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:19.861 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 64] [BasicErrorController.error] 执行耗时 : 17ms
+2024-05-06 11:24:20.006 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:24:20.007 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:24:20.007 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:20.007 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:20.012 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:24:20.013 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:24:20.032 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:24:20.063 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 56ms
+2024-05-06 11:24:20.065 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 59ms
+2024-05-06 11:24:41.082 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:checkChunk
+2024-05-06 11:24:41.083 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:41.084 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.controller.FileController 689] 执行check-------------------
+2024-05-06 11:24:41.084 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.controller.FileController 693] checkChunk+chunk:0
+2024-05-06 11:24:41.085 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.controller.FileController 695] checkChunk+chunkSize:4978233
+2024-05-06 11:24:41.086 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.controller.FileController 697] pan/logs/tmpUpload/
+2024-05-06 11:24:41.090 WARN 18980 [http-nio-8080-exec-5] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.checkChunk] 执行耗时 : 8ms
+2024-05-06 11:24:41.297 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:uploadSevlet
+2024-05-06 11:24:41.297 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:41.303 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 645] chunk:null
+2024-05-06 11:24:41.304 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 650] 执行前---------
+2024-05-06 11:24:41.306 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 655] tempDir:pan/logs/tmpUpload/admin/2024-05-06/Another Ideology.mp3
+2024-05-06 11:24:41.309 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 662] pan/logs/tmpUpload/admin/2024-05-06/Another Ideology.mp3/null
+2024-05-06 11:24:41.321 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 670] 保存分片文件出错：java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Another Ideology.mp3\null (系统找不到指定的路径。)
+2024-05-06 11:24:41.333ERROR 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 671] Exception:
+
+java.io.IOException: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Another Ideology.mp3\null (系统找不到指定的路径。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at com.bjpowernode.pan.controller.FileController.uploadSevlet(FileController.java:665) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Another Ideology.mp3\null (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	... 50 common frames omitted
+
+2024-05-06 11:24:41.336 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.uploadSevlet] 执行耗时 : 39ms
+2024-05-06 11:24:41.345 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:mergeChunks
+2024-05-06 11:24:41.346 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:41.350 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 724] 执行merge
+2024-05-06 11:24:41.351 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 726] mergeChunks+fileName:Another Ideology.mp3
+2024-05-06 11:24:41.354 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 731] mergeChunks() result:false
+2024-05-06 11:24:41.355 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.mergeChunks] 执行耗时 : 10ms
+2024-05-06 11:24:42.431 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:24:42.432 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:42.432 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:24:42.433 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:42.434 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:24:42.434 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:24:42.436 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:24:42.436 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 5ms
+2024-05-06 11:24:42.448 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 16ms
+2024-05-06 11:24:58.144 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:checkChunk
+2024-05-06 11:24:58.145 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:58.145 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.FileController 689] 执行check-------------------
+2024-05-06 11:24:58.146 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.FileController 693] checkChunk+chunk:0
+2024-05-06 11:24:58.146 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.FileController 695] checkChunk+chunkSize:4910151
+2024-05-06 11:24:58.146 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.controller.FileController 697] pan/logs/tmpUpload/
+2024-05-06 11:24:58.151 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.checkChunk] 执行耗时 : 7ms
+2024-05-06 11:24:58.299 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:uploadSevlet
+2024-05-06 11:24:58.300 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:58.302 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 645] chunk:null
+2024-05-06 11:24:58.302 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 650] 执行前---------
+2024-05-06 11:24:58.303 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 655] tempDir:pan/logs/tmpUpload/admin/2024-05-06/No More What Ifs -instrumental version.mp3
+2024-05-06 11:24:58.306 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 662] pan/logs/tmpUpload/admin/2024-05-06/No More What Ifs -instrumental version.mp3/null
+2024-05-06 11:24:58.318 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 670] 保存分片文件出错：java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\No More What Ifs -instrumental version.mp3\null (系统找不到指定的路径。)
+2024-05-06 11:24:58.322ERROR 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 671] Exception:
+
+java.io.IOException: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\No More What Ifs -instrumental version.mp3\null (系统找不到指定的路径。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at com.bjpowernode.pan.controller.FileController.uploadSevlet(FileController.java:665) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\No More What Ifs -instrumental version.mp3\null (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	... 50 common frames omitted
+
+2024-05-06 11:24:58.324 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.uploadSevlet] 执行耗时 : 25ms
+2024-05-06 11:24:58.331 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:mergeChunks
+2024-05-06 11:24:58.332 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:58.333 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 724] 执行merge
+2024-05-06 11:24:58.333 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 726] mergeChunks+fileName:No More What Ifs -instrumental version.mp3
+2024-05-06 11:24:58.335 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.controller.FileController 731] mergeChunks() result:false
+2024-05-06 11:24:58.335 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.mergeChunks] 执行耗时 : 4ms
+2024-05-06 11:24:59.352 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:24:59.353 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:59.355 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:24:59.355 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:24:59.355 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:24:59.355 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:24:59.357 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:24:59.358 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 6ms
+2024-05-06 11:24:59.361 WARN 18980 [http-nio-8080-exec-2] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 6ms
+2024-05-06 11:25:12.134 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:checkChunk
+2024-05-06 11:25:12.135 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:12.136 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 689] 执行check-------------------
+2024-05-06 11:25:12.137 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 693] checkChunk+chunk:0
+2024-05-06 11:25:12.137 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 695] checkChunk+chunkSize:4636700
+2024-05-06 11:25:12.137 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.controller.FileController 697] pan/logs/tmpUpload/
+2024-05-06 11:25:12.139 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.checkChunk] 执行耗时 : 5ms
+2024-05-06 11:25:12.266 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:uploadSevlet
+2024-05-06 11:25:12.267 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:12.268 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 645] chunk:null
+2024-05-06 11:25:12.269 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 650] 执行前---------
+2024-05-06 11:25:12.269 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 655] tempDir:pan/logs/tmpUpload/admin/2024-05-06/Royal Days.mp3
+2024-05-06 11:25:12.270 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 662] pan/logs/tmpUpload/admin/2024-05-06/Royal Days.mp3/null
+2024-05-06 11:25:12.295 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 670] 保存分片文件出错：java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Royal Days.mp3\null (系统找不到指定的路径。)
+2024-05-06 11:25:12.297ERROR 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 671] Exception:
+
+java.io.IOException: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Royal Days.mp3\null (系统找不到指定的路径。)
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:122) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile.transferTo(StandardMultipartHttpServletRequest.java:256) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at com.bjpowernode.pan.controller.FileController.uploadSevlet(FileController.java:665) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.io.FileNotFoundException: C:\Users\ASUS\AppData\Local\Temp\tomcat.13900369925946631417.8080\work\Tomcat\localhost\ROOT\pan\logs\tmpUpload\admin\2024-05-06\Royal Days.mp3\null (系统找不到指定的路径。)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[na:na]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230) ~[na:na]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179) ~[na:na]
+	at org.apache.tomcat.util.http.fileupload.disk.DiskFileItem.write(DiskFileItem.java:406) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	at org.apache.catalina.core.ApplicationPart.write(ApplicationPart.java:120) ~[tomcat-embed-core-9.0.34.jar:9.0.34]
+	... 50 common frames omitted
+
+2024-05-06 11:25:12.299 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.uploadSevlet] 执行耗时 : 33ms
+2024-05-06 11:25:12.307 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:mergeChunks
+2024-05-06 11:25:12.308 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:12.308 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 724] 执行merge
+2024-05-06 11:25:12.309 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 726] mergeChunks+fileName:Royal Days.mp3
+2024-05-06 11:25:12.311 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 731] mergeChunks() result:false
+2024-05-06 11:25:12.311 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.mergeChunks] 执行耗时 : 4ms
+2024-05-06 11:25:13.306 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:25:13.306 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:13.307 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:25:13.308 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:25:13.309 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:25:13.310 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:13.310 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:25:13.312 WARN 18980 [http-nio-8080-exec-1] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 6ms
+2024-05-06 11:25:13.315 WARN 18980 [http-nio-8080-exec-8] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 6ms
+2024-05-06 11:25:18.479 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:dirCreate
+2024-05-06 11:25:18.480 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:18.483 WARN 18980 [http-nio-8080-exec-9] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.dirCreate] 执行耗时 : 4ms
+2024-05-06 11:25:18.490 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:25:18.490 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:25:18.490 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:18.490 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:18.491 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:25:18.492 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:25:18.493 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:25:18.495 WARN 18980 [http-nio-8080-exec-10] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 5ms
+2024-05-06 11:25:18.496 WARN 18980 [http-nio-8080-exec-3] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 6ms
+2024-05-06 11:25:20.023 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:userFileList
+2024-05-06 11:25:20.023 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 35] 用户ip:0:0:0:0:0:0:0:1,访问目标:com.bjpowernode.pan.controller.FileController:getSpaceSize
+2024-05-06 11:25:20.024 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:20.024 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 42] 登录的账号:admin
+2024-05-06 11:25:20.025 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 783] usedeSpace:0.00
+2024-05-06 11:25:20.025 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.service.impl.FileServiceImpl 100] 执行userFileList函数！
+2024-05-06 11:25:20.025 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.controller.FileController 785] freeSpace:80.00
+2024-05-06 11:25:20.027 WARN 18980 [http-nio-8080-exec-4] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.getSpaceSize] 执行耗时 : 4ms
+2024-05-06 11:25:20.027 WARN 18980 [http-nio-8080-exec-6] [com.bjpowernode.pan.config.WebInterceptor 64] [FileController.userFileList] 执行耗时 : 4ms
