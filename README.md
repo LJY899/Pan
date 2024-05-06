@@ -11,7 +11,7 @@ JAVA：推荐JDK1.8
 添加MySQL数据源，创建bjpan数据库，执行bjpan.sql；
 ## 3. 配置更改
 - 数据库配置在src/main/resources/application.properties中修改
-- 云盘用户保存文件的路径在src/main/resources/application-windows.properties，默认为根目录下的pan/logs文件夹
+- 云盘用户保存文件的路径在src/main/resources/application-windows.properties，需要自己更改
 ## 4. 项目启动
 1. 运行PanApplication.java，打开浏览器输入http://localhost:8080/
 2. 默认网盘用户：用户名admin，密码123456
